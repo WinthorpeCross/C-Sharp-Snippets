@@ -1,0 +1,38 @@
+﻿
+
+How to define value equality for a type (C# Programming Guide)
+07/20/2015
+
+When you define a class or struct, you decide whether it makes sense to create a custom definition of value equality (or equivalence) for the type. Typically, you implement value equality when objects of the type are expected to be added to a collection of some sort, or when their primary purpose is to store a set of fields or properties. You can base your definition of value equality on a comparison of all the fields and properties in the type, or you can base the definition on a subset.
+
+In either case, and in both classes and structs, your implementation should follow the five guarantees of equivalence 
+(For the following rules, assume that x, y and z are not null):
+
+1) x.Equals(x) returns true. This is called the reflexive property.
+
+2) x.Equals(y) returns the same value as y.Equals(x). This is called the symmetric property.
+
+3) if (x.Equals(y) && y.Equals(z)) returns true, then x.Equals(z) returns true. This is called the transitive property.
+
+4) Successive invocations of x.Equals(y) return the same value as long as the objects referenced by x and y are not modified.
+
+5) Any non-null value is not equal to null. However, the CLR checks for null on all method calls and throws a NullReferenceException if the this reference would be null. Therefore, x.Equals(y) throws an exception when x is null. That breaks rules 1 or 2, depending on the argument to Equals.
+
+Any struct that you define already has a default implementation of value equality that it inherits from the System.ValueType override of the Object.Equals(Object) method. This implementation uses reflection to examine all the fields and properties in the type. Although this implementation produces correct results, it is relatively slow compared to a custom implementation that you write specifically for the type.
+
+The implementation details for value equality are different for classes and structs. However, both classes and structs require the same basic steps for implementing equality:
+
+Override the virtual Object.Equals(Object) method. In most cases, your implementation of bool Equals( object obj ) should just call into the type-specific Equals method that is the implementation of the System.IEquatable<T> interface. (See step 2.)
+
+Implement the System.IEquatable<T> interface by providing a type-specific Equals method. This is where the actual equivalence comparison is performed. For example, you might decide to define equality by comparing only one or two fields in your type. Do not throw exceptions from Equals. For classes only: This method should examine only fields that are declared in the class. It should call base.Equals to examine fields that are in the base class. (Do not do this if the type inherits directly from Object, because the Object implementation of Object.Equals(Object) performs a reference equality check.)
+
+Optional but recommended: Overload the == and != operators.
+
+Override Object.GetHashCode so that two objects that have value equality produce the same hash code.
+
+Optional: To support definitions for "greater than" or "less than," implement the IComparable<T> interface for your type, and also overload the <= and >= operators.
+
+
+Note:
+
+Starting in C# 9.0, you can use records to get value equality semantics without any unnecessary boilerplate code.
