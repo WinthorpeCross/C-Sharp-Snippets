@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Value_Equality_Class_Example/1.0.0": {
+        "runtime": {
+          "Value_Equality_Class_Example.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Value_Equality_Class_Example/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

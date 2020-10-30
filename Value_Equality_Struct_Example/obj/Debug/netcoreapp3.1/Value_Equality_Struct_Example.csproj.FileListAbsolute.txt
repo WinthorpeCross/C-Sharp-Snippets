@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\bin\Debug\netcoreapp3.1\Value_Equality_Struct_Example.exe
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\bin\Debug\netcoreapp3.1\Value_Equality_Struct_Example.deps.json
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\bin\Debug\netcoreapp3.1\Value_Equality_Struct_Example.runtimeconfig.json
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\bin\Debug\netcoreapp3.1\Value_Equality_Struct_Example.runtimeconfig.dev.json
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\bin\Debug\netcoreapp3.1\Value_Equality_Struct_Example.dll
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\bin\Debug\netcoreapp3.1\Value_Equality_Struct_Example.pdb
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\obj\Debug\netcoreapp3.1\Value_Equality_Struct_Example.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\obj\Debug\netcoreapp3.1\Value_Equality_Struct_Example.AssemblyInfo.cs
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\obj\Debug\netcoreapp3.1\Value_Equality_Struct_Example.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\obj\Debug\netcoreapp3.1\Value_Equality_Struct_Example.dll
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\obj\Debug\netcoreapp3.1\Value_Equality_Struct_Example.pdb
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Struct_Example\obj\Debug\netcoreapp3.1\Value_Equality_Struct_Example.genruntimeconfig.cache
