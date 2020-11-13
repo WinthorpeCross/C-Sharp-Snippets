@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\bin\Debug\net5.0\Value_Equality_Class_Example.exe
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\bin\Debug\net5.0\Value_Equality_Class_Example.deps.json
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\bin\Debug\net5.0\Value_Equality_Class_Example.runtimeconfig.json
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\bin\Debug\net5.0\Value_Equality_Class_Example.runtimeconfig.dev.json
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\bin\Debug\net5.0\Value_Equality_Class_Example.dll
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\bin\Debug\net5.0\ref\Value_Equality_Class_Example.dll
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\bin\Debug\net5.0\Value_Equality_Class_Example.pdb
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\obj\Debug\net5.0\Value_Equality_Class_Example.csprojAssemblyReference.cache
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\obj\Debug\net5.0\Value_Equality_Class_Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\obj\Debug\net5.0\Value_Equality_Class_Example.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\obj\Debug\net5.0\Value_Equality_Class_Example.AssemblyInfo.cs
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\obj\Debug\net5.0\Value_Equality_Class_Example.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\obj\Debug\net5.0\Value_Equality_Class_Example.dll
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\obj\Debug\net5.0\ref\Value_Equality_Class_Example.dll
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\obj\Debug\net5.0\Value_Equality_Class_Example.pdb
+C:\Users\user\source\repos\C_Sharp_Snippets\Value_Equality_Class_Example\obj\Debug\net5.0\Value_Equality_Class_Example.genruntimeconfig.cache
